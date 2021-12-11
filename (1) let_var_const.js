@@ -1,14 +1,14 @@
 // var, let
-if(true){
-    var varVariable = 'this is var'
-}
-console.log(varVariable);
+// if(true){
+//     var varVariable = 'this is var'
+// }
+// console.log(varVariable);
 
-if(true){
-    let letVariable = 'this is let'
+// if(true){
+//     let letVariable = 'this is let'
 
-    console.log(letVariable);
-}
+//     console.log(letVariable);
+// }
 // try it 
 // console.log(letVariable); 
 
