@@ -1,31 +1,32 @@
 // (function () {
 //   var num1 = 2;
 //   var num2 = 3;
-//
+
 //   var sum = function () {
 //     return num1 + num2;
 //   };
-//
+
 //   console.log(sum());
 //   console.dir(sum);
-//
+
 //   var num1 = 6;
 //   var num2 = 7;
-//
+
 //   console.log(sum());
 //   console.dir(sum);
 // })();
 
 //=================================================
-function bankAccount(intialBalance) {
-    var balance = intialBalance;
-    return function(){
-        return balance;
-    }
-}
+// function bankAccount(intialBalance) {
+//   let balance = intialBalance;
+//   return function () {
+//     return balance;
+//   };
+// }
 
-var account = bankAccount(100000);
-console.dir(account);
+// // console.log(balance);
+// var account = bankAccount(100000);
+// console.dir(account);
 
 //=================================================
 // let num1 = 2;

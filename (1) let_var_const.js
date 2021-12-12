@@ -1,4 +1,4 @@
-// var, let
+// // var let
 // if(true){
 //     var varVariable = 'this is var'
 // }
@@ -9,7 +9,7 @@
 
 //     console.log(letVariable);
 // }
-// try it 
+// // try it 
 // console.log(letVariable); 
 
 
@@ -21,18 +21,18 @@
 
 //=======================================================
 // const
-if(true){
-    // const constVariable = "this is javascript"
-    // constVariable = "this is javascript"
-    // console.log(constVariable);
+// if(true){
+//     // const constVariable = "this is javascript"
+//     // constVariable = "this is javascript"
+//     // console.log(constVariable);
 
     
-    const constVariable = {
-        name: 'javascript',
-        age: '25 years'
-    }
-    constVariable.name = "JS";
-    console.log(constVariable);
-}
+//     const constVariable = {
+//         name: 'javascript',
+//         age: '25 years'
+//     }
+//     constVariable.name = "JS";
+//     console.log(constVariable);
+// }
 
 
