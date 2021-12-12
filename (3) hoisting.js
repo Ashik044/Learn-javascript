@@ -17,14 +17,14 @@
 // var b = "ashik";
 
 //==================================================
-let LANGUAGE = "java";
-let language = "javascript";
+// let LANGUAGE = "java";
+// let language = "javascript";
 
-function getLanguage() {
-  if (!language) {
-    let language = LANGUAGE;
-  }
-  return language;
-}
+// function getLanguage() {
+//   if (!language) {
+//     let language = LANGUAGE;
+//   }
+//   return language;
+// }
 
-console.log(`I love ${getLanguage()}`);
+// console.log(`I love ${getLanguage()}`);
