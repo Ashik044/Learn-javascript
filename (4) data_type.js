@@ -78,3 +78,10 @@ y = parseFloat(x)
 console.log(y);
 
 //===========================
+x = "sjdkf";
+y = isNaN(x);
+console.log(y);
+//------------------------------------
+x = 1234;
+y = isNaN(x);
+console.log(y);
