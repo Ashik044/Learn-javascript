@@ -26,23 +26,22 @@ console.log(countries);
 console.log(`this is pop: ${countries}`);
 
 //===============================================
-countries.shift()
+countries.shift();
 console.log(countries);
 console.log(`this is shift: ${countries}`);
 
 //===============================================
-countries.unshift("Bangladesh")
+countries.unshift("Bangladesh");
 console.log(countries);
 console.log(`this is unshift: ${countries}`);
 
 //===============================================
+var numbers = [];
+numbers.push(12);
+numbers.push("two");
+console.log(numbers);
 
-
-
-
-
-
-
+//===============================================
 
 ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////
