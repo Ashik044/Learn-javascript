@@ -41,23 +41,24 @@
 // numbers.push("two");
 // console.log(numbers);
 
-// ===============================================
-var a = "Bangladesh";
-var y = a.split("");
-console.log(y);
-console.log(`this is split: ${y}`);
+// // ===============================================
+// var a = "Bangladesh";
+// var y = a.split("");
+// console.log(y);
+// console.log(`this is split: ${y}`);
+
+// // ===============================================
+// a = ['Bangladesh', 'UAS', 'Ball'];
+// y = a.toString()
+// console.log(y);
+
+// y = a.join(" ");
+// console.log(y);
+
+// y = a.sort();
+// console.log(y);
 
 // ===============================================
-a = ['Bangladesh', 'UAS', 'Ball'];
-y = a.toString()
-console.log(y);
-
-y = a.join(" ");
-console.log(y);
-
-y = a.sort();
-console.log(y);
-
 
 
 
