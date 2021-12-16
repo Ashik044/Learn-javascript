@@ -7,32 +7,52 @@
 // console.log(a);
 // console.log(b);
 
+// //=============================================
+// // abnormal
+// var a = {
+//   name: "Sakib",
+// };
+
+// var b = a;
+
+// a.name = "Tamim";
+
+// console.log(a);
+// console.log(b);
+
+// //=============================================
+// // abnormal
+// var a = ['Sakib', 'Tamim'];
+
+// var b = a;
+
+// // a.push("Mahmudullah");
+// a = [];
+// a.push("Mahmudullah", "Tamim");
+
+
+// console.log(a);
+// console.log(b);
+
+// //=============================================
+// var language = {
+//      name: "javascript",
+//      estd: "1995",
+//      libraries: ["React", "Vue", "JQuery"],
+// }
+// var language2 = _.cloneDeep(language);
+
+// language.libraries.push("Angular");
+
+// console.log(language);
+// console.log(language2);
+
 //=============================================
-// abnormal
-var a = {
-  name: "Sakib",
-};
+var a = "Sakib";
 
-var b = a;
+console.dir(a);
 
-a.name = "Tamim";
+var b = new String("Sakib");
 
-console.log(a);
-console.log(b);
-
-//=============================================
-// abnormal
-var a = ['Sakib', 'Tamim'];
-
-var b = a;
-
-a.push("Mahmudullah");
-
-console.log(a);
-console.log(b);
-
-//=============================================
-
-
-
-
+// console.dir(b)
+console.log(b.charAt(2));
