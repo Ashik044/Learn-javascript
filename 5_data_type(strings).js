@@ -27,7 +27,7 @@ console.log(a);
 // console.log(a);
 
 //=========================================
-a = 'Ashik Reza'
+a = "Ashik Reza";
 var b = a.length;
 console.log(b);
 
@@ -35,14 +35,14 @@ console.log(b);
 a = "Ashik ";
 b = "Reza";
 var c = a + b;
-console.log(c); 
+console.log(c);
 
 //=========================================
-a = "ashik"
+a = "ashik";
 b = a.toUpperCase();
 console.log(`this is upper case: ${b}`);
 
-a = "ASHIK"
+a = "ASHIK";
 b = a.toLowerCase();
 console.log(`this is lower case: ${b}`);
 
@@ -51,7 +51,7 @@ console.log(a);
 b = a.trim();
 console.log(`this is trim: ${b}`);
 
-a = "ashik"
+a = "ashik";
 b = a.slice(0, 2);
 console.log(`this is slice: ${b}`);
 
@@ -60,11 +60,10 @@ b = a.substring(1, 4);
 console.log(`this is substring: ${b}`);
 
 a = "ashik";
-b = a.replace("s", "i");
+b = a.replace("a", "i");
 console.log(`this is replace: ${b}`);
 
 a = "I am ";
-var c = "ashik "
+var c = "ashik ";
 b = a.concat(c, " reza");
 console.log(`this is concat: ${b}`);
-
