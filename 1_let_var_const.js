@@ -21,18 +21,18 @@
 
 //=======================================================
 // const
-// if(true){
-//     // const constVariable = "this is javascript"
-//     // constVariable = "this is javascript"
-//     // console.log(constVariable);
+if(true){
+    // const constVariable = "this is javascript"
+    // constVariable = "this is javascript"
+    // console.log(constVariable);
 
     
-//     const constVariable = {
-//         name: 'javascript',
-//         age: '25 years'
-//     }
-//     constVariable.name = "JS";
-//     console.log(constVariable);
-// }
+    const constVariable = {
+        name: 'javascript',
+        age: '25 years'
+    }
+    constVariable.name = "JS";
+    console.log(constVariable);
+}
 
 
