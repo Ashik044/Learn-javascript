@@ -1,0 +1,4 @@
+A/  callback function:
+
+B/  (a) Rest Operator
+    (b) Spread Operator

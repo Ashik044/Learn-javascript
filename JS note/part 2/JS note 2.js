@@ -76,11 +76,11 @@ let allFruits = fruits3.concat(moreFruits); // allFruits: ['apple', 'banana', 'o
 
 // (4) shift() - Removes the first element from an array.
 let fruits4 = ["apple", "banana", "orange"];
-let firstFruit = fruits.shift(); // fruits: ['banana', 'orange'], firstFruit: 'apple'
+let firstFruit = fruits.shift(); // fruits4: ['banana', 'orange'], firstFruit: 'apple'
 
 // (5) unshift(element1, …, elementN) - Adds elements to the beginning of an array.
 let fruits = ["banana", "orange"];
-fruits.unshift("apple", "kiwi"); // fruits: ['apple', 'kiwi', 'banana', 'orange']
+fruits.unshift("apple", "kiwi"); // fruits5: ['apple', 'kiwi', 'banana', 'orange']
 
 // (6) map(callback(element, index, array)) - Creates a new array with the results of calling a function for every array element.
 let numbers1 = [1, 2, 3];
