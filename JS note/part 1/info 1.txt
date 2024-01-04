@@ -1,3 +1,4 @@
 1/  scope, lexical scoping, hoisting, and closures:
 
 2/  regular function, function expression, named function expression, Arrow function, anonymous function: 
+
