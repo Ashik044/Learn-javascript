@@ -1,0 +1,21 @@
+A/  (1) primitive 
+    (2) reference
+
+
+B/  (1) push(), 
+    (2) pop(), 
+    (3) concat, 
+    (4) shift(), 
+    (5) unshift(), 
+    (6) map(), 
+    (7) filter(),
+    (8) reduce(),
+    (9) forEach(), 
+    (10) find(),
+    (11) slice(), 
+    (12) splice()
+    (13) every(),
+    (14) some(),
+    (15) includes(),
+    (16) indexOf(),
+    (17) join()
