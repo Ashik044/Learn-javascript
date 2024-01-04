@@ -1,11 +1,12 @@
-A/  (1)scope, 
-    (2)lexical scoping, 
-    (3)hoisting, 
-    (4)closures:
+A/  (1) scope, 
+    (2) lexical scoping, 
+    (3) hoisting, 
+    (4) closures:
 
-B/  (1)regular function, 
-    (2)function expression, 
-    (3)named function expression, 
-    (4)Arrow function, 
-    (5)anonymous function: 
+
+B/  (1) regular function, 
+    (2) function expression, 
+    (3) named function expression, 
+    (4) Arrow function, 
+    (5) anonymous function: 
 
