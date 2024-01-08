@@ -2,3 +2,5 @@ A/  callback function:
 
 B/  (a) Rest Operator
     (b) Spread Operator
+
+C/  Shallow copy and a deep copy

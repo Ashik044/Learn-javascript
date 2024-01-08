@@ -1,12 +1,12 @@
-// 1/  scope, lexical scoping, hoisting, and closures:
+// ! 1/  scope, lexical scoping, hoisting, and closures:
 
 // Scope:-
 
 // Scope refers to the visibility of variables and functions in different parts of your code. In JavaScript, there are two main types of scope:
 
-// Global Scope: Variables defined outside any function have global scope and are accessible from anywhere in your code.
+// ? Global Scope: Variables defined outside any function have global scope and are accessible from anywhere in your code.
 
-// Local Scope: Variables defined within a function are local to that function and can only be accessed within that function.
+// ? Local Scope: Variables defined within a function are local to that function and can only be accessed within that function.
 
 // Code Example:
 let globalVar = "I am global"; // Global scope
@@ -21,11 +21,12 @@ checkScope();
 console.log(globalVar); // Accessible
 console.log(localVar); // Unaccessible, will throw a ReferenceError
 
-// ----------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------
 
-// Lexical Scoping:-
+// ! Lexical Scoping:-
 
-// Lexical Scoping (also known as static scoping) means that the scope of a variable is determined by its position in the source code. Inner functions have access to the variables of their outer functions. But outer functions do not have access to Inner functions
+//  Lexical Scoping (also known as static scoping) means that the scope of a variable is determined by its position in the source code.
+//  ? Inner functions have access to the variables of their outer functions. But outer functions do not have access to Inner functions.
 
 // Code Example:
 function outerFunction() {
@@ -40,11 +41,11 @@ function outerFunction() {
 
 outerFunction();
 
-// ----------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------
 
-// Hoisting:-
+// ! Hoisting:-
 
-// Hoisting is JavaScript’s default behavior of moving all declarations (variables and functions) to the top of their containing scope during the compile phase. This means that you can use variables and functions before they are declared in the code.
+// ? Hoisting is JavaScript’s default behavior of moving all declarations (variables and functions) to the top of their containing scope during the compile phase. This means that you can use variables and functions before they are declared in the code.
 
 // Code Example:
 console.log(hoistedVar); // Outputs: undefined
@@ -55,11 +56,11 @@ function hoistedFunction() {
   console.log("This function has been hoisted!");
 }
 
-// ----------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------
 
-// Closures:-
+// ! Closures:-
 
-// A closure is a function that has access to its own scope, the outer function’s scope, and the global scope, even after the outer function has closed. This is possible because the inner function retains a reference to the outer scope.
+// ? A closure is a function that has access to its own scope, the outer function’s scope, and the global scope, even after the outer function has closed. This is possible because the inner function retains a reference to the outer scope.
 
 // Code Example:
 function outerFunction() {
@@ -94,11 +95,11 @@ myClosure(); // Even though outerFunction has finished execution, myClosure stil
 
 // =================================================================================================
 
-// 2/  regular function, function expression, named function expression, Arrow function, anonymous function:
+// ! 2/ regular function, function expression, named function expression, Arrow function, anonymous function:
 
-// Regular function:-
+// 1/ Regular function:-
 
-// A regular function is declared with the function keyword and can be named or anonymous. A regular function has its own this binding and an arguments object that contains the parameters passed to it. A regular function can be hoisted, which means it can be called before it is defined.
+// ? A regular function is declared with the function keyword and can be named or anonymous. A regular function has its own this binding and an arguments object that contains the parameters passed to it. A regular function can be hoisted, which means it can be called before it is defined.
 
 // Code example:
 
@@ -120,9 +121,9 @@ function multiply(x, y) {
 
 // -----------------------------------------------------------------------
 
-// Function expression:-
+// 2/ Function expression:-
 
-// A function expression is a function that is assigned to a variable or a property of an object. A function expression can be named or anonymous, but the name is only visible within the function scope. A function expression is not hoisted, which means it cannot be called before it is defined. A function expression has the same properties as a regular function, such as this binding and arguments object.
+// ? A function expression is a function that is assigned to a variable or a property of an object. A function expression can be named or anonymous, but the name is only visible within the function scope. A function expression is not hoisted, which means it cannot be called before it is defined. A function expression has the same properties as a regular function, such as this binding and arguments object.
 
 // Code example:
 
@@ -142,9 +143,9 @@ console.log(cube(2)); // ReferenceError: cube is not defined
 
 // -----------------------------------------------------------------------------------
 
-// Named function expression:-
+// 3/ Named function expression:-
 
-//  A named function expression is a special case of a function expression, where the function has a name that is visible only within the function scope. A named function expression is useful for debugging and recursion purposes.
+// ? A named function expression is a special case of a function expression, where the function has a name that is visible only within the function scope. A named function expression is useful for debugging and recursion purposes.
 
 // Code example:
 
@@ -161,9 +162,9 @@ console.log(fact(5)); // ReferenceError: fact is not defined
 
 // -----------------------------------------------------------------------------------
 
-// Arrow function:-
+// 4/ Arrow function:-
 
-// An arrow function is a concise and modern way of writing function expressions. An arrow function is always anonymous and does not have its own this binding or arguments object. An arrow function cannot be used as a constructor or a generator. An arrow function has an implicit return, which means it returns the value of the expression without the return keyword, unless the function body is enclosed in curly braces.
+// ? An arrow function is a concise and modern way of writing function expressions. An arrow function is always anonymous and does not have its own this binding or arguments object. An arrow function cannot be used as a constructor or a generator. An arrow function has an implicit return, which means it returns the value of the expression without the return keyword, unless the function body is enclosed in curly braces.
 
 // Code example:
 
@@ -186,9 +187,9 @@ var sum = (x, y) => {
 
 // -----------------------------------------------------------------------------------------
 
-// Anonymous function:-
+// 5/ Anonymous function:-
 
-//  An anonymous function is a function that does not have a name. An anonymous function can be a regular function, a function expression, or an arrow function. An anonymous function is often used as a callback or a closure.
+// ? An anonymous function is a function that does not have a name. An anonymous function can be a regular function, a function expression, or an arrow function. An anonymous function is often used as a callback or a closure.
 
 //  Code example:
 
@@ -209,19 +210,19 @@ var triples = numbers.map((x) => x * 3);
 // ***
 // Effective Note:
 
-// Regular functions are declared with the function keyword and can be named or anonymous. They have their own this and arguments and can be hoisted.
+// 1/ Regular functions are declared with the function keyword and can be named or anonymous. They have their own this and arguments and can be hoisted.
 
-// Function expressions are functions assigned to variables or properties. They can be named or anonymous, but the name is only visible within the function. They are not hoisted and have the same properties as regular functions.
+// 2/ Function expressions are functions assigned to variables or properties. They can be named or anonymous, but the name is only visible within the function. They are not hoisted and have the same properties as regular functions.
 
-// Named function expressions are function expressions with a name that is only visible within the function. They are useful for debugging and recursion.
+// 3/ Named function expressions are function expressions with a name that is only visible within the function. They are useful for debugging and recursion.
 
-// Arrow functions are concise and modern function expressions that are always anonymous. They do not have their own this or arguments and cannot be used as constructors or generators. They have an implicit return unless the function body is enclosed in curly braces.
+// 4/ Arrow functions are concise and modern function expressions that are always anonymous. They do not have their own this or arguments and cannot be used as constructors or generators. They have an implicit return unless the function body is enclosed in curly braces.
 
-// Anonymous functions are functions without a name. They can be regular functions, function expressions, or arrow functions. They are often used as callbacks or closures.
+// 5/ Anonymous functions are functions without a name. They can be regular functions, function expressions, or arrow functions. They are often used as callbacks or closures.
 
 // Learn more:
 // https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/
 // https://dev.to/mathlete/anonymous-functions-vs-named-functions-vs-arrow-functions-57pm
 // https://dev.to/vandnakapoor19/the-difference-between-regular-functions-and-arrow-functions-j7d
 
-// ===================================================================================================================
+// ==================================================================================================
